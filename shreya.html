@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet">
+
+  <title>Form</title>
+</head>
+
+<body>
+  <h1>GOOD VIVES FORM</h1>
+  <div class="form">
+    <h3>Tell us something positive that happened to you today.</h3>
+    <form>
+      <table>
+        <tr >
+          <td class="left">
+            <label for="fname">First Name</label>
+
+          </td>
+
+          <td class="right">
+            <div class="col-2">
+              <input class="text" type="text" id="fname" name="fname" placeholder="Enter your Name..">
+            </div>
+          </td>
+        </tr>
+
+
+        <tr>
+          <td class="left">
+            <label for="fname">Email</label>
+          </td>
+          <td class="right">
+            <div class="col-2">
+              <input  class="text" type="text" id="Email" name="email" placeholder="Enter your email address..">
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="left">
+            <label for="fname">On a scale 1-10,how good was it?</label>
+          </td>
+          <td class="right">
+            <div class="col-2">
+              <input  class="text" type="text" id="fname" name="fname" placeholder="Enter a number between 1-10">
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="left">
+            <label for="Where did it happend?">Where did it happend?</label>
+          </td>
+          <td class="right">
+            <div class="col-2">
+              <select class="selected"id="where did it happened?" name="where did it happened?">
+                <option value="At home">At home</option>
+                <option value="At office">At Office</option>
+                <option value="At bhiwandi">At bhiwandi</option>
+
+              </select>
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="left">
+            <label for="At what time of day did it happen?">At what time of day did it happen?</label>
+          </td>
+          <td class="right">
+            <div class="col-2">
+              <div>
+                <input type="radio" name="radio">
+                <label class="container">Morning
+                </label>
+              </div>
+              <div>
+                <input type="radio" name="radio">
+                <label class="container">Afternoon
+                </label>
+              </div>
+              <div>
+                <input type="radio" name="radio">
+                <label class="container">Evening
+                </label>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="left">
+            <label for="What emotions did you experience?"> What emotions did you experience?<br>(Select all that
+              apply)</label>
+          </td>
+          <td class="right">
+            <div class="col-2">
+              <div>
+                <input type="checkbox" >
+                <label class="container">Exited
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+              <div>
+                <input type="checkbox">
+                <label class="container">Humbled
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+              <div>
+                <input type="checkbox">
+                <label class="container">Elated
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+              <div>
+                <input type="checkbox">
+                <label class="container">Loved
+                  <span class="checkmark"></span>
+                </label>
+                </div>
+                <div>
+               <input type="checkbox">
+                <label class="container">Enthusiastic
+                  <span class="checkmark"></span>
+                </label>
+             </div>
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="left">
+            <label for="please describe ur experience">please describe your positive experience.</label>
+          </td>
+          <td class="right">
+            <div class="col-2">
+              <textarea class="changes" id="subject" name="please describe ur experience"
+                placeholder="Write something.." rows="3" cols="30"></textarea>
+            </div>
+          </td>
+        </tr>
+
+      </table>
+    </form>
+  </div>
+</body>
+
+</html>
